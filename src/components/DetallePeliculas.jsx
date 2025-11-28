@@ -36,7 +36,7 @@ const DetallePeliculas = () => {
     return (
 
         <div className="max-w-2xl m-auto p-6 bg-gray-200 rounded-2xl">
-            <Link to="/peliculas">Volver</Link>
+            <Link to="/peliculas"> Volver al Listado </Link>
             <div className="text-center">
                 <h1 className=" font-bold bg-black text-white inline-block rounded-2xl w-auto py-2 px-4">{peliculas.name}</h1>
             </div>
